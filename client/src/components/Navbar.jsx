@@ -221,7 +221,6 @@ const Navbar = ({ onSearch, searchQuery = '', searchResults = [], isSearching = 
       category: product.category || 'Product'
     }));
   };
-
   const suggestions = getSuggestions();
 
   return (
