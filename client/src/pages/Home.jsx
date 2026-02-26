@@ -1052,13 +1052,7 @@ const Home = () => {
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 space-y-12">
         {/* Search Bar */}
-        <div className="sticky top-0 z-40 bg-white py-4 -mx-4 px-4 sm:mx-0 sm:px-0">
-          <SearchBar 
-            onSearch={handleSearch}
-            placeholder="Search for electronics, fashion, groceries, and more..."
-          />
-        </div>
-
+        
         {/* Search Results */}
         {searchQuery && (
           <div className="bg-white rounded-xl shadow-sm border border-gray-100 p-6">
